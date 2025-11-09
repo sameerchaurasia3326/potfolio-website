@@ -75,7 +75,7 @@ export default function Contact() {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          access_key: "170b8eaf-eb2e-45b0-8c4c-c5eb8dcc6ddd",
+          access_key: "your-webform-access-key",
           name: formData.name,
           email: formData.email,
           message: formData.message,
